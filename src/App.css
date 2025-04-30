@@ -1,0 +1,11 @@
+.App{
+  text-align: center;
+  background-image: url('./assets/background.jpg');
+  display: grid;
+  grid-template-areas: 'aside boardContainer scoreBoardContainer';
+  font-size: calc(10px+2vmin);
+  color: white;
+}
+.aside{
+	padding: 20px;
+}
